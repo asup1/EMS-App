@@ -5,8 +5,8 @@ services:
     ports:
       - "0:8080"
     environment:
-     - DRIVERCLASSNAME= driverclassname
-     - DATABASEURL= jdbc:mysql://endpoint/test
-     - DBUSERNAME= user
-     - DBPASSWORD= password
-     - DIALECT= dialect
+     - DRIVERCLASSNAME= DB1
+     - DATABASEURL= DB2
+     - DBUSERNAME= DB3
+     - DBPASSWORD= DB4
+     - DIALECT= DB5
